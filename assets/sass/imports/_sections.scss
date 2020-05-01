@@ -560,4 +560,12 @@
   &.bg-gray + &.bg-gray {
     padding-top: 0;
   }
+  
+  &.bg-sea {
+
+    background: url('/images/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 600px;
 }
