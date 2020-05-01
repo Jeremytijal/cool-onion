@@ -12,18 +12,21 @@
   </div><!-- .block-header -->
   {{ if $section.features }}
   <div class="inner">
-    {{ range $feature := $section.features }}
+     {{ range $post := $recent_posts }}
     <div class="block-item">
       <div class="grid">
         {{ if $feature.image }}
         <div class="cell block-preview">
-          <img src="{{ $feature.image | relURL }}" alt="{{ $feature.title }}" />
+          {{ if $post.Params.thumb_image }}
+          <a class="post-card-thumbnail" href="{{ $post.URL }}">
+            <img class="thumbnail" src="{{ $post.Params.thumb_image | relURL }}" alt="{{ $post.Params.title }}" />
+          </a>
         </div><!-- .block-preview -->
         {{ end }}
         <div class="cell block-content">
-          <h3 class="block-title underline">{{ $feature.title }}</h3>
-          <div class="block-copy">
-            {{ partial "markdownify-block" $feature.content }}
+          <header class="post-header">
+          <h3 class="post-title"><a href="{{ $post.URL }}" rel="bookmark">{{ $post.Params.title }}</a></h3>
+          </header>
           </div>
           {{ if $feature.actions }}
             {{ $include_dict := dict "actions" $feature.actions }}
