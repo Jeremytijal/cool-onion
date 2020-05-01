@@ -24,9 +24,7 @@
         </div><!-- .block-preview -->
         {{ end }}
         <div class="cell block-content">
-          <header class="post-header">
-          <h3 class="post-title"><a href="{{ $post.URL }}" rel="bookmark">{{ $post.Params.title }}</a></h3>
-          </header>
+          {{ partial "markdownify-block" $post.Params.excerpt }}
           </div>
           {{ if $feature.actions }}
             {{ $include_dict := dict "actions" $feature.actions }}
