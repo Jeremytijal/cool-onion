@@ -892,7 +892,7 @@ collections:
       field: layout
       value: post
   - name: posts
-   label: Posts
+   label: Posts3
    folder: content/posts3
    create: true
    extension: md
