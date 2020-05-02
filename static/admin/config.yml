@@ -892,51 +892,51 @@ collections:
       field: layout
       value: post
   - name: posts
-   label: Posts3
-   folder: content/posts3
-   create: true
-   extension: md
-   slug: '{{slug}}'
-   fields:
-     - widget: string
-       name: title
-       label: Title
-       required: true
-       hint: The title of the post
-     - widget: string
-       name: subtitle
-       label: Subtitle
-       required: false
-       hint: The text shown just below the title or the featured image
-     - widget: date
-       name: date
-       label: Date
-       required: true
-     - widget: markdown
-       name: excerpt
-       label: Excerpt
-       required: false
-       hint: The excerpt of the post displayed in the blog feed
-     - widget: image
-       name: image
-       label: Featured Image
-       required: false
-       hint: The image shown below the title
-     - widget: image
-       name: thumb_image
-       label: Blog Feed Image
-       required: false
-       hint: The image shown in the blog feed
-     - widget: hidden
-       name: layout
-       label: Layout
-       required: true
-       default: post
-     - widget: markdown
-       name: body
-       label: Content
-       required: false
-       hint: Page content
-   filter:
-     field: layout
-     value: post
+    label: Posts3
+    folder: content/posts3
+    create: true
+    extension: md
+    slug: '{{slug}}'
+    fields:
+      - widget: string
+        name: title
+        label: Title
+        required: true
+        hint: The title of the post
+      - widget: string
+        name: subtitle
+        label: Subtitle
+        required: false
+        hint: The text shown just below the title or the featured image
+      - widget: date
+        name: date
+        label: Date
+        required: true
+      - widget: markdown
+        name: excerpt
+        label: Excerpt
+        required: false
+        hint: The excerpt of the post displayed in the blog feed
+      - widget: image
+        name: image
+        label: Featured Image
+        required: false
+        hint: The image shown below the title
+      - widget: image
+        name: thumb_image
+        label: Blog Feed Image
+        required: false
+        hint: The image shown in the blog feed
+      - widget: hidden
+        name: layout
+        label: Layout
+        required: true
+        default: post
+      - widget: markdown
+        name: body
+        label: Content
+        required: false
+        hint: Page content
+    filter:
+      field: layout
+      value: post
