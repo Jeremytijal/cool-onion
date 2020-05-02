@@ -843,7 +843,7 @@ collections:
       field: layout
       value: page
   - name: post
-    label: Posts
+    label: Beauté
     folder: content/posts
     create: true
     extension: md
@@ -892,7 +892,7 @@ collections:
       field: layout
       value: post
   - name: posts
-    label: Posts3
+    label: Voyages
     folder: content/posts3
     create: true
     extension: md
@@ -900,12 +900,12 @@ collections:
     fields:
       - widget: string
         name: title
-        label: Title
+        label: Titre
         required: true
         hint: The title of the post
       - widget: string
         name: subtitle
-        label: Subtitle
+        label: Sous-titre
         required: false
         hint: The text shown just below the title or the featured image
       - widget: date
@@ -914,7 +914,7 @@ collections:
         required: true
       - widget: markdown
         name: excerpt
-        label: Excerpt
+        label: Description
         required: false
         hint: The excerpt of the post displayed in the blog feed
       - widget: image
@@ -924,7 +924,7 @@ collections:
         hint: The image shown below the title
       - widget: image
         name: thumb_image
-        label: Blog Feed Image
+        label: Petite Image
         required: false
         hint: The image shown in the blog feed
       - widget: hidden
