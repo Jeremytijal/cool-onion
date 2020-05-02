@@ -1,12 +1,12 @@
 ---
-title: 5 Customer Service Skills that Every Employee Needs
+title: Tenue d'Hiver
 subtitle: 'Apparently, there are 5 Service Skills that Every Employee Needs'
 date: '2018-01-11'
 excerpt: >-
   Sed nec metus dignissim quam finibus aliquet. Cras luctus, nibh id consequat
   interdum, massa massa tempor ante.
-image: images/5.jpg
-thumb_image: images/5_thumb.jpg
+image: images/dress3.jpg
+thumb_image: images/dress3.jpg
 layout: post
 ---
 

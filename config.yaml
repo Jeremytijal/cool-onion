@@ -7,50 +7,32 @@ params:
     logo_img: /images/joy-of-life.png
     has_nav: true
     nav_links:
-      - label: Home
+      - label: Accueil
         url: /
-      - label: Features
-        url: /features
-      - label: Pricing
-        url: /pricing
-      - label: Style Guide
-        url: /style-guide
-      - label: Sign Up
-        url: /signup
-        primary: true
+      - label: Voyages
+        url: /blog3
+      - label: Beauté
+        url: /blog
+
   footer:
     subscribe_title: Subscribe
     subscribe_content: Stay up to date with our latest developments.
-    has_subscribe: true
-    social_title: Community
+    has_subscribe: false
+    social_title: Mes Réseaux
     social_links:
-      - label: Twitter
-        url: https://twitter.com/
-        new_window: true
       - label: Instagram
-        url: https://www.instagram.com/
-        new_window: true
-      - label: LinkedIn
-        url: https://www.linkedin.com/
+        url: https://www.instagram.com/joyoflife2019/?hl=fr
         new_window: true
     tagline: Live the life of your dreams
     logo_img: /images/joy-of-life-2.png
     has_social: true
-    content: "&copy; Stackbit. All rights reserved."
-    links:
-      - label: Made with Stackbit
-        url: https://www.stackbit.com
-        new_window: true
-    nav_title: Company
+    content: "&copy; Netary. Tous droits réservés."
+    nav_title: Mes Articles
     nav_links:
-      - label: About Us
-        url: /about
-      - label: Blog
+      - label: Voyages
+        url: /blog3
+      - label: Beauté
         url: /blog
-      - label: Sign Up
-        url: signup
-      - label: Contact
-        url: /contact
     has_nav: true
 disableKinds:
   - RSS

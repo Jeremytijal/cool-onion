@@ -101,7 +101,7 @@
       -ms-flex: 5;
       flex: 5;
     }
-    
+
     .underline:after {
       display: block;
     }
@@ -136,7 +136,7 @@
       display: -ms-flexbox;
       display: -webkit-flex;
       display: flex;
-      min-height: 90vh; 
+      min-height: 100vh; 
     }
 
     .cell {
@@ -161,7 +161,7 @@
           }
         }
       }
-    } 
+    }
   }
 
 /* Call to Action */
@@ -595,7 +595,7 @@
   &.bg-gray + &.bg-gray {
     padding-top: 0;
   }
-  
+
   &.bg-sea {
 
     background: url('/images/fond.jpg');
