@@ -891,7 +891,7 @@ collections:
     filter:
       field: layout
       value: post
-  - name: posts3
+  - name: posts
    label: Posts
    folder: content/posts3
    create: true
